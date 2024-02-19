@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La programmation mais c'est Star Wars !</title>
+        <link rel="stylesheet" href="style/css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>La programmation mais c'est Star Wars</h1>
+        </header>
+        <section>
+            <button class="start-button">Commencer</button>
+            <div class="personnages disabled">
+                <div class="personnage luke">
+                    <img src="assets/luke.webp" alt="luke">
+                    <button class="green-illumination" value="Luke">Je choisi Luke !</button>
+                </div>
+                <div class="personnage vador">
+                    <img src="assets/vador.webp" alt="dark vador">
+                    <button value="Vador">Je choisi Vador !</button>
+                </div>
+            </div>
+            <form class="disabled">
+                <div class="champs">
+                    <h3>Je créé mon chevalier jedi (ou seigneur site)</h3>
+                    <div class="champ">
+                        <label for="jedi-name">Prénom :</label>
+                        <input type="text" class="prenom-input">
+                    </div>
+                    <div class="champ">
+                        <label for="full-name">Nom :</label>
+                        <input type="text" class="nom-input" >
+                    </div>
+                    <div class="champ">
+                        <label for="jedi-checkbox">jedi :</label>
+                        <input type="checkbox" id="jedi-checkbox">
+                    </div>
+                    <div class="champ">
+                        <label for="sith-checkbox">sith :</label>
+                        <input type="checkbox" id="sith-checkbox">
+                    </div>
+                </div>
+                    <button type="submit" class="green-illumination">Que la bataille commence !</button>
+            </form>
+            <button class="reload-button">Refresh</button>
+        </section>
+        <footer>
+            <p>Contact : L'etoile noire</p>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
